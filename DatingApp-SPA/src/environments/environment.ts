@@ -5,7 +5,7 @@
 export const environment = {
          production: false,
          baseURL: 'http://localhost:5000/api/auth/',
-         valueURL: 'http://localhost:5000/api/values/'
+         valueURL: 'http://localhost:5000/api/values/getall'
        };
 
 /*
