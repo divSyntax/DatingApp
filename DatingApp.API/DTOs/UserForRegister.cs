@@ -9,7 +9,7 @@ namespace DatingApp.API.DTOs
         public string Username{get;set;}
 
         [Required]
-        [StringLength(8, MinimumLength = 4, ErrorMessage="Password mut be a min of 4 characters and max 8.")]
+        [StringLength(8, MinimumLength = 4, ErrorMessage="Password must be a min of 4 characters and max 8.")]
         public string Password{get;set;}
     }
 }
